@@ -1,14 +1,14 @@
 ---
 layout: post
-title: '欢迎大家的关注'
+title: 'Hello World'
 date: '2015-11-10'
 header-img: "img/home-bg.jpg"
 tags:
-     - 随手一记
+     - 开始
 author: '、醉梦'
 ---
 
-欢迎大家的关注，会不定期更新个人遇到的编程问题!
+博客搭好了，就以Hello World开始，会不定期更新一些编程问题!
 
 
 > 如有任何知识产权、版权问题或理论错误，还请指正。
