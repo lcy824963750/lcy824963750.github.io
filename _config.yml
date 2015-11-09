@@ -1,13 +1,11 @@
 # Site settings
-title: 小胖轩 
+title: 、醉梦苍穹红颜断 
 header-img: img/home-bg.jpg
-email: app@codeboy.me
+email: 824963750@qq.com
 description: "编码生涯的点点滴滴"
 host: "127.0.0.1"
 baseurl: ""
-url: "http://codeboy.me"
-github_username:  androiddevelop
-zhihu_username: li-yue-dong
+github_username:  lcy824963750
 
 # Build settings
 markdown: kramdown 
