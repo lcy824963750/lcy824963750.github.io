@@ -57,11 +57,11 @@ layout: default
                     }
                 </style>
 
-                <div class="ds-share"
+                <div class="ds-share" id="ds_share"
                     data-thread-key="{{page.id}}" data-title="{{page.title}}"
                     data-images="{{ site.url }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}"
                     data-content="{{ content | strip_html | truncate:80 }} | 、醉梦 李春阳 的个人博客"
-                    data-url="<?php echo 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'].'?'.$_SERVER['QUERY_STRING']; ?>">
+                    >
                     <div class="ds-share-inline">
                       <ul  class="ds-share-icons-16">
 
@@ -139,6 +139,11 @@ var duoshuoQuery = {short_name:"lcy824963750"};
         };
         anchors.add().remove('.intro-header h1').remove('.subheading');
     })
+	
+	var ds_share = document.getElementById("ds_share");
+	var url = this.location.href;
+	ds_share.setAttribute("data-url",url);
+	
 </script>
 <style>
     /* place left on bigger screen */
