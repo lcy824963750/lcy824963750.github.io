@@ -5,7 +5,7 @@ date: '2015-11-10'
 header-img: "img/post-bg-android.jpg"
 tags:
      - 开始
-author: 'Codeboy'
+author: 'lcy'
 ---
 
 github博客搭建完成，便以HelloWorld开始吧，会不定期更新自己遇到的各种编程问题。
